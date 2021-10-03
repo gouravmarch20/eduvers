@@ -1,0 +1,34 @@
+:root {
+  --bg-danger-color: #b9345a;
+  --text-white-color: white;
+}
+
+.container {
+  max-width: 700px;
+}
+.hero_section {
+  height: 40vh;
+  border-radius: 2rem;
+  margin-top: 2rem;
+}
+.form_alignment {
+  width: 60%;
+  margin: 4rem auto;
+  padding: 2rem;
+}
+.align_bottom {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+ 
+  margin-bottom: 0px !important;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  .form_alignment {
+    width: 100%;
+  }
+}
