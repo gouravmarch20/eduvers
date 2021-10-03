@@ -2,7 +2,8 @@ const data = {
   apsDk: [
     //   basic info
     {
-      name: 'Delhi Technological University',
+      key: 1,
+      name: 'Army public school , dhaula kuan ',
       location: 'Ridge road , dhaula kuan ',
       establishedYear: '1953',
       affilatedBoard: 'C.B.S.E',
@@ -64,7 +65,7 @@ const data = {
       address: 'ridge road '
     }
   ],
-
+  // --- TODO: PRASHANT
   sasssDelhi: [
     {
       name: 'St Andrews Scotts Senior Sec School ',
@@ -75,3 +76,4 @@ const data = {
     }
   ]
 }
+export default data
